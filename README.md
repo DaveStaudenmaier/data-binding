@@ -1,6 +1,11 @@
-# TempApp2
+# Angular Data Binding Examples
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+
+This demo project shows a simple example of the different type of data bindings Angular supports. 
+
+See my [blog](http://dev-reboot.com/data-binding) for an explanation of data binding and commentary on this example app.
+
 
 ## Development server
 
