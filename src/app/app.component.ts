@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'temp-app2';
+  name = 'Richard Starkey';
+  ringoPic = './../assets/images/ringo-Keystone-hutton-archives-getty.jpg';
+
+  updateName(name: string) {
+    this.name = name;
+  }
 }

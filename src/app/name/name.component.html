@@ -1,0 +1,28 @@
+<div>
+    <div>
+      <mat-form-field appearance="outline" class="message-input">
+        <mat-label>Update Name</mat-label>
+
+        <!--
+          [(ngModel)] (a.k.a. banana in a box) is two-way data binding
+            The value of the input element is set to the value of the property 'name' from
+            the component class.  When the user changes the name value in the Input field,
+            the value of the 'name' property in the component class also changes.
+        -->
+        <input matInput [(ngModel)]="name">
+      </mat-form-field>
+    </div>
+
+    <div>
+
+      <!--
+        (click)="onSubmit() is event binding
+          When the field is clicked, it initiates the onSubmit() method in the component class.
+      -->
+      <button mat-raised-button
+              color="primary"
+              (click)="onSubmit()">
+        Submit
+      </button>
+    </div>
+</div>
