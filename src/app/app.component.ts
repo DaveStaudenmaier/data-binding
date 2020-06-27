@@ -7,9 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'Richard Starkey';
-  ringoPic = './../assets/images/ringo-Keystone-hutton-archives-getty.jpg';
+  updatedName = false;
+  fontWeight = 'default';
+  wasHeABeatle = true;
+  profilePic = './../assets/images/ringo-Keystone-hutton-archives-getty.jpg';
 
   updateName(name: string) {
     this.name = name;
+    this.updatedName = true;
+    this.fontWeight = '900';
   }
 }

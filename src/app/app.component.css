@@ -5,3 +5,11 @@
 .image {
   width: 100%;
 }
+
+.name {
+  color: red;
+}
+
+.underline {
+  border-bottom: red;
+}

@@ -6,8 +6,13 @@
     image source is property binding.
       One way binding from 'ringoPic' propterty in component class to template.
   -->
-  <p>Name: {{ name }}</p>
-  <img class="image" [src]="ringoPic">
+  <p [class.name]="updatedName" [style.font-weight]="fontWeight">Name: {{ name }}</p>
+
+  <!-- Expressions will be converted to a string for display -->
+  <!-- Number={{ 1 + 2 }}
+  He was a Beatle ={{ wasHeABeatle }} -->
+
+  <img class="image" [src]="profilePic">
 
   <!--
     name is property binding.
