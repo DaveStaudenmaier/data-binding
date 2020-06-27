@@ -9,7 +9,7 @@ export class AppComponent {
   name = 'Richard Starkey';
   updatedName = false;
   fontWeight = 'default';
-  wasHeABeatle = true;
+  // wasHeABeatle = true;
   profilePic = './../assets/images/ringo-Keystone-hutton-archives-getty.jpg';
 
   updateName(name: string) {

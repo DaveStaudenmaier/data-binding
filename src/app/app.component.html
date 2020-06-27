@@ -3,8 +3,7 @@
   <!--
     name is string interpolation (template expression).
       One way binding from 'name' property in component class to template.
-    image source is property binding.
-      One way binding from 'ringoPic' propterty in component class to template.
+    Using class and style bindings here as well
   -->
   <p [class.name]="updatedName" [style.font-weight]="fontWeight">Name: {{ name }}</p>
 
@@ -12,6 +11,8 @@
   <!-- Number={{ 1 + 2 }}
   He was a Beatle ={{ wasHeABeatle }} -->
 
+  <!-- image source is property binding.
+        One way binding from 'ringoPic' propterty in component class to template. -->
   <img class="image" [src]="profilePic">
 
   <!--
